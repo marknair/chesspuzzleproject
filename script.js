@@ -1,4 +1,4 @@
-let chessPieces = ["♟︎", "♘", "♟︎", "♘", "♟︎", "♝", "♟︎", "♝", "♜", "♟︎", "♟︎", "♜", "♕", "♔", "♟︎", "♟︎"]
+let chessPieces = ["♟︎", "♘", "♟︎", "♘", "♟︎", "♝", "♟︎", "♝", "♜", "♟︎", "♟︎", "♜", "♕", "♔", "♟︎", "♟︎", "Spanky"]
 let pawnShelf = document.getElementById("pawn-shelf")
 let minorPiecesShelf = document.getElementById("minorpieces-shelf")
 let rookShelf = document.getElementById("rook-shelf")
@@ -18,6 +18,8 @@ function sortPieces() {
           royalShelf.textContent += "♕"
         } else if (chessPieces[i] === "♔") {
           royalShelf.textContent += "♔"
+        } else if (chessPieces[i] === "Spanky") {
+            royalShelf.textContent += "It's Spanky!"
         }
     }
 }
