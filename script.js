@@ -19,7 +19,9 @@ function sortPieces() {
         } else if (chessPieces[i] === "♔") {
           royalShelf.textContent += "♔"
         } else if (chessPieces[i] === "Spanky") {
-            royalShelf.textContent += "It's Spanky!"
+            pawnShelf.textContent += " It's Spanky!"
+            minorPiecesShelf.textContent += " It's Spanky!"
+            royalShelf.textContent += " It's Spanky!"
         }
     }
 }
