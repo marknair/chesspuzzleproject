@@ -5,7 +5,7 @@ let rookShelf = document.getElementById("rook-shelf")
 let royalShelf = document.getElementById("royal-shelf")
 
 function sortPieces() {
-    
+    // This is the work I'm about do.
 }
 
 sortPieces()
